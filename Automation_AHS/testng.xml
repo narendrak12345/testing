@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke tests">
+	<listeners>
+		<listener class-name="Listenerpackage.listener" />
+	</listeners>
+	<test thread-count="2" name="Test">
+
+		<classes>
+			<class name="Tests_AHS.Login_test" />
+			<class name="Tests_AHS.Add_new_doctor_Test" />
+			<class name="Tests_AHS.Review_demographics_Test" />
+			<class name="Tests_AHS.Email_doctor_Test" />
+			<class name="Tests_AHS.Expert_Physicians_Opinion_Test" />
+			<class name="Tests_AHS.Parent_Minor_relation_Test" />
+			<class name="Tests_AHS.Upload_Existing_Document_Test" />
+			<class name="Tests_AHS.Universal_State_Hipaa_Forms_Test" />
+			<class name="Tests_AHS.Upload_New_Document_Test" />
+			<class name="Tests_AHS.Patient_Signup_Test" />
+			<class name="Tests_AHS.Forget_Password_Test" />
+			
+			<class name="Tests_AHS_Physician.Physician_Login_test" />
+			<class name="Tests_AHS_Physician.New_Admin_Test" />
+			<class name="Tests_AHS_Physician.View_PracticeDoc_Groups_Test" />
+			<class name="Tests_AHS_Physician.Review_demographics_PHY_Test" />
+			<class name="Tests_AHS_Physician.Doctor_To_Doctor_Email_Test" />
+			<class name="Tests_AHS_Physician.COE_Test" />
+			<class name="Tests_AHS_Physician.Administration_Edit_Test" />
+			<class name="Tests_AHS_Physician.Assign__Doc_Group_Test" />
+			<class name="Tests_AHS_Physician.EmailTo_All_Test" />
+			<class name="Tests_AHS_Physician.Invite_Patient_Test" />
+			<class name="Tests_AHS_Physician.PracticeDoc_NewDoc_Test" />
+			<class name="Tests_AHS_Physician.EmailTo_All_Test" />
+			<class name="Tests_AHS_Physician.Invite_Patient_Test" />
+			<class name="Tests_AHS_Physician.SecondOpinion_Without_PHI_Test" />
+			<class name="Tests_AHS_Physician.New_Physician_Test" />	
+			<class name="Tests_AHS_Physician.Assign__Doc_Group_Test" />	
+			<class name="Tests_AHS_Physician.SecondOpinion_With_PHI_Test" />
+			<class name="Tests_AHS_Physician.SecondOpinion_Without_PHI_Test" />
+			<class name="Tests_AHS_Physician.Send_Email_Test" />
+			<class name="Tests_AHS_Physician.Send_HIPPA_Test" />
+			<class name="Tests_AHS_Physician.Upload_Documents_Test" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
